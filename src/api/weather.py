@@ -1,5 +1,8 @@
+# Modules
 from utilities.variables import api_key, base_url_weather
 import requests
+
+# Logging
 import logging.config
 
 logging.config.fileConfig('./src/config/loggingFile.conf')

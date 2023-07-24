@@ -6,3 +6,1236 @@
 '16-Jul-23 00:12:55' - root - INFO - App has been initialized!
 '16-Jul-23 00:12:55' - api - INFO - Initialized get_url_request() static method ...
 '16-Jul-23 00:12:55' - api - INFO - get_url_request static method has been completed successfully!
+'16-Jul-23 21:21:58' - root - INFO - App has been initialized!
+'16-Jul-23 21:21:58' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:21:58' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:21:58' - api - INFO - Instance Weather object...
+'16-Jul-23 21:21:58' - api - INFO - Request Weather API...
+'16-Jul-23 21:21:59' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:21:59' - data - ERROR - get_whole_day_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 37, in get_whole_day_forecast
+    date = response['forecast']['forecastday']['date']
+TypeError: list indices must be integers or slices, not str
+'16-Jul-23 21:24:17' - root - INFO - App has been initialized!
+'16-Jul-23 21:24:17' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:24:17' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:24:17' - api - INFO - Instance Weather object...
+'16-Jul-23 21:24:17' - api - INFO - Request Weather API...
+'16-Jul-23 21:24:18' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:24:18' - data - ERROR - get_whole_day_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 37, in get_whole_day_forecast
+    date = response['forecast']['forecastday']['date']
+TypeError: list indices must be integers or slices, not str
+'16-Jul-23 21:27:27' - root - INFO - App has been initialized!
+'16-Jul-23 21:27:27' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:27:27' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:27:27' - api - INFO - Instance Weather object...
+'16-Jul-23 21:27:27' - api - INFO - Request Weather API...
+'16-Jul-23 21:27:49' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:27:49' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:27:49' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:27:49' - data - INFO - time get successfully!
+'16-Jul-23 21:27:49' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:27:49' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:27:49' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:27:49' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:27:49' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:27:49' - data - ERROR - get_whole_day_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 40, in get_whole_day_forecast
+    data_forecast.append(get_forecast(response, itr).append(date))
+AttributeError: 'tuple' object has no attribute 'append'
+'16-Jul-23 21:30:57' - root - INFO - App has been initialized!
+'16-Jul-23 21:30:57' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:30:57' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:30:57' - api - INFO - Instance Weather object...
+'16-Jul-23 21:30:57' - api - INFO - Request Weather API...
+'16-Jul-23 21:30:57' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:30:57' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:30:57' - data - INFO - time get successfully!
+'16-Jul-23 21:30:57' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:30:57' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:30:57' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:30:57' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:30:57' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:30:57' - data - INFO - get_whole_day_forecast has been executed successfully!
+'16-Jul-23 21:32:46' - root - INFO - App has been initialized!
+'16-Jul-23 21:32:46' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:32:46' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:32:46' - api - INFO - Instance Weather object...
+'16-Jul-23 21:32:46' - api - INFO - Request Weather API...
+'16-Jul-23 21:33:07' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:33:07' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:33:07' - data - INFO - time get successfully!
+'16-Jul-23 21:33:07' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:33:07' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:33:07' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:33:07' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:33:07' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:33:07' - data - INFO - get_whole_day_forecast has been executed successfully!
+'16-Jul-23 21:33:49' - root - INFO - App has been initialized!
+'16-Jul-23 21:33:49' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:33:49' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:33:49' - api - INFO - Instance Weather object...
+'16-Jul-23 21:33:49' - api - INFO - Request Weather API...
+'16-Jul-23 21:34:11' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:34:11' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:34:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:34:11' - data - INFO - time get successfully!
+'16-Jul-23 21:34:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:34:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:34:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:34:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:34:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:34:11' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:34:11' - data - ERROR - get_whole_day_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 40, in get_whole_day_forecast
+    data_forecast.append(get_forecast(response, itr).append(date))
+AttributeError: 'NoneType' object has no attribute 'append'
+'16-Jul-23 21:35:50' - root - INFO - App has been initialized!
+'16-Jul-23 21:35:50' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:35:50' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:35:50' - api - INFO - Instance Weather object...
+'16-Jul-23 21:35:50' - api - INFO - Request Weather API...
+'16-Jul-23 21:36:12' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:36:12' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:36:44' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:36:44' - data - INFO - time get successfully!
+'16-Jul-23 21:36:44' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:36:44' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:36:44' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:36:44' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:36:44' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:36:44' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:36:49' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:36:49' - data - INFO - time get successfully!
+'16-Jul-23 21:36:49' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:36:49' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:36:49' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:36:49' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:36:49' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:36:49' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:43:39' - root - INFO - App has been initialized!
+'16-Jul-23 21:43:39' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:43:39' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:43:39' - api - INFO - Instance Weather object...
+'16-Jul-23 21:43:39' - api - INFO - Request Weather API...
+'16-Jul-23 21:43:39' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:43:39' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:44:02' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:44:02' - data - INFO - time get successfully!
+'16-Jul-23 21:44:02' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:44:02' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:44:02' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:44:02' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:44:02' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:44:02' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:47:59' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:47:59' - data - INFO - time get successfully!
+'16-Jul-23 21:47:59' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:47:59' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:47:59' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:47:59' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:47:59' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:47:59' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:48:14' - root - INFO - App has been initialized!
+'16-Jul-23 21:48:14' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:48:14' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:48:14' - api - INFO - Instance Weather object...
+'16-Jul-23 21:48:14' - api - INFO - Request Weather API...
+'16-Jul-23 21:48:35' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:48:35' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:48:56' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:48:56' - data - INFO - time get successfully!
+'16-Jul-23 21:48:56' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:48:56' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:48:56' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:48:56' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:48:56' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:49:18' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:49:18' - data - INFO - time get successfully!
+'16-Jul-23 21:49:18' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:49:18' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:49:18' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:49:18' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:49:18' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:49:24' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:49:24' - data - INFO - time get successfully!
+'16-Jul-23 21:49:24' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:49:24' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:49:24' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:49:24' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:49:24' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:49:30' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:49:30' - data - INFO - time get successfully!
+'16-Jul-23 21:49:30' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:49:30' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:49:30' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:49:30' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:49:30' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:55:18' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:55:18' - data - INFO - time get successfully!
+'16-Jul-23 21:55:18' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:55:18' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:55:18' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:55:18' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:55:18' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:55:36' - root - INFO - App has been initialized!
+'16-Jul-23 21:55:36' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 21:55:36' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 21:55:36' - api - INFO - Instance Weather object...
+'16-Jul-23 21:55:36' - api - INFO - Request Weather API...
+'16-Jul-23 21:55:58' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 21:55:58' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 21:56:16' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:56:16' - data - INFO - time get successfully!
+'16-Jul-23 21:56:16' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:56:16' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:56:16' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:56:16' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:56:16' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:56:16' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:59:25' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:59:25' - data - INFO - time get successfully!
+'16-Jul-23 21:59:25' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:59:25' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:59:25' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:59:25' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:59:25' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:59:25' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 21:59:32' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 21:59:32' - data - INFO - time get successfully!
+'16-Jul-23 21:59:32' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 21:59:32' - data - INFO - weather's condition get successfully!
+'16-Jul-23 21:59:32' - data - INFO - rainy_day get successfully!
+'16-Jul-23 21:59:32' - data - INFO - probability of rain get successfully!
+'16-Jul-23 21:59:32' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 21:59:32' - data - ERROR - get_forecast has failed! Check the Stacktrace: 
+Traceback (most recent call last):
+  File "d:\Projects\Projects\twilio_weather_api\src\data\processing.py", line 27, in get_forecast
+    return list(time, temperature_c, condition, rainy_day, prob_rain)
+TypeError: list expected at most 1 argument, got 5
+'16-Jul-23 22:00:15' - root - INFO - App has been initialized!
+'16-Jul-23 22:00:15' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 22:00:15' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 22:00:15' - api - INFO - Instance Weather object...
+'16-Jul-23 22:00:15' - api - INFO - Request Weather API...
+'16-Jul-23 22:00:37' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 22:00:37' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 22:08:28' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:08:28' - data - INFO - time get successfully!
+'16-Jul-23 22:08:28' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:08:28' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:08:28' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:08:28' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:08:28' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:08:36' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:08:36' - data - INFO - time get successfully!
+'16-Jul-23 22:08:36' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:08:36' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:08:36' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:08:36' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:08:36' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:08:52' - root - INFO - App has been initialized!
+'16-Jul-23 22:08:52' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 22:08:52' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 22:08:52' - api - INFO - Instance Weather object...
+'16-Jul-23 22:08:52' - api - INFO - Request Weather API...
+'16-Jul-23 22:09:13' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 22:09:13' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 22:09:34' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:09:34' - data - INFO - time get successfully!
+'16-Jul-23 22:09:34' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:09:34' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:09:34' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:09:34' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:09:34' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:09:52' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:09:52' - data - INFO - time get successfully!
+'16-Jul-23 22:09:52' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:09:52' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:09:52' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:09:52' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:09:52' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:09:59' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:09:59' - data - INFO - time get successfully!
+'16-Jul-23 22:09:59' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:09:59' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:09:59' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:09:59' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:09:59' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:10:06' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:10:06' - data - INFO - time get successfully!
+'16-Jul-23 22:10:06' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:10:06' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:10:06' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:10:06' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:10:06' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:12:04' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:12:04' - data - INFO - time get successfully!
+'16-Jul-23 22:12:04' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:12:04' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:12:04' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:12:04' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:12:04' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:12:26' - root - INFO - App has been initialized!
+'16-Jul-23 22:12:26' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 22:12:26' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 22:12:26' - api - INFO - Instance Weather object...
+'16-Jul-23 22:12:26' - api - INFO - Request Weather API...
+'16-Jul-23 22:12:27' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 22:12:27' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 22:12:27' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:12:27' - data - INFO - time get successfully!
+'16-Jul-23 22:12:27' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:12:27' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:12:27' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:12:27' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:12:27' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:12:42' - root - INFO - App has been initialized!
+'16-Jul-23 22:12:42' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 22:12:42' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 22:12:42' - api - INFO - Instance Weather object...
+'16-Jul-23 22:12:42' - api - INFO - Request Weather API...
+'16-Jul-23 22:12:43' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 22:12:43' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 22:12:43' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:12:43' - data - INFO - time get successfully!
+'16-Jul-23 22:12:43' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:12:43' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:12:43' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:12:43' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:12:43' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:15:42' - root - INFO - App has been initialized!
+'16-Jul-23 22:15:42' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 22:15:42' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 22:15:42' - api - INFO - Instance Weather object...
+'16-Jul-23 22:15:42' - api - INFO - Request Weather API...
+'16-Jul-23 22:15:42' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 22:15:42' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 22:15:42' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:15:42' - data - INFO - time get successfully!
+'16-Jul-23 22:15:42' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:15:42' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:15:42' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:15:42' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:15:42' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - root - INFO - App has been initialized!
+'16-Jul-23 22:18:11' - api - INFO - Initialized get_url_request() static method ...
+'16-Jul-23 22:18:11' - api - INFO - get_url_request static method has been completed successfully! 
+
+'16-Jul-23 22:18:11' - api - INFO - Instance Weather object...
+'16-Jul-23 22:18:11' - api - INFO - Request Weather API...
+'16-Jul-23 22:18:11' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'16-Jul-23 22:18:11' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast function has been initialized...
+'16-Jul-23 22:18:11' - data - INFO - time get successfully!
+'16-Jul-23 22:18:11' - data - INFO - temperatue in celsius get successfully!
+'16-Jul-23 22:18:11' - data - INFO - weather's condition get successfully!
+'16-Jul-23 22:18:11' - data - INFO - rainy_day get successfully!
+'16-Jul-23 22:18:11' - data - INFO - probability of rain get successfully!
+'16-Jul-23 22:18:11' - data - INFO - get_forecast functions has been executed succesfully!
+'16-Jul-23 22:18:11' - data - INFO - get_whole_day_forecast has been executed successfully!
+'23-Jul-23 18:57:52' - root - INFO - App has been initialized!
+'23-Jul-23 18:57:52' - api - INFO - Initialized get_url_request() static method ...
+'23-Jul-23 18:57:52' - api - INFO - get_url_request static method has been completed successfully! 
+
+'23-Jul-23 18:57:52' - api - INFO - Instance Weather object...
+'23-Jul-23 18:57:52' - api - INFO - Request Weather API...
+'23-Jul-23 18:58:14' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'23-Jul-23 18:58:14' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 18:58:14' - data - INFO - time get successfully!
+'23-Jul-23 18:58:14' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 18:58:14' - data - INFO - weather's condition get successfully!
+'23-Jul-23 18:58:14' - data - INFO - rainy_day get successfully!
+'23-Jul-23 18:58:14' - data - INFO - probability of rain get successfully!
+'23-Jul-23 18:58:14' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 18:58:14' - data - INFO - get_whole_day_forecast has been executed successfully!
+'23-Jul-23 19:04:07' - root - INFO - App has been initialized...
+'23-Jul-23 19:04:07' - api - INFO - Initialized get_url_request() static method ...
+'23-Jul-23 19:04:07' - api - INFO - get_url_request static method has been completed successfully! 
+
+'23-Jul-23 19:04:07' - api - INFO - Instance Weather object...
+'23-Jul-23 19:04:07' - api - INFO - Request Weather API...
+'23-Jul-23 19:04:07' - api - INFO - Response 200 - Request has been executed successfully! 
+
+'23-Jul-23 19:04:07' - data - INFO - get_whole_day_forecast functionas has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast function has been initialized...
+'23-Jul-23 19:04:07' - data - INFO - time get successfully!
+'23-Jul-23 19:04:07' - data - INFO - temperatue in celsius get successfully!
+'23-Jul-23 19:04:07' - data - INFO - weather's condition get successfully!
+'23-Jul-23 19:04:07' - data - INFO - rainy_day get successfully!
+'23-Jul-23 19:04:07' - data - INFO - probability of rain get successfully!
+'23-Jul-23 19:04:07' - data - INFO - get_forecast functions has been executed succesfully!
+'23-Jul-23 19:04:07' - data - INFO - get_whole_day_forecast has been executed successfully!
