@@ -19,6 +19,7 @@ def main():
     logging.info('App has been initialized...')
     api_request = Weather.get_url_request(city)
     weather_api = Weather(api_request)
+    weather_api.request_api()
     data = get_whole_day_forecast(weather_api.response)
     dfWeather = get_df(data, columns)
     dfRain = get_report(dfWeather)

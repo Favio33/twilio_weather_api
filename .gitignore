@@ -1,5 +1,6 @@
 /env_api
 /Mensajes_Twilio.ipynb
 /.env
+/src/logs/*
 __pycache__
 *.pyc

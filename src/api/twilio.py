@@ -49,9 +49,9 @@ def send_message (df: pd.DataFrame, phone_destination: str):
         client = twilio_auth()
         logger.info("Twilio autorization succesful")
         message = client.messages.create(
+            from_ = 'whatsapp:'+os.environ['PHONE_NUMBER'],
             body = generate_text(df),
-            from_ = os.environ['PHONE_NUMBER'],
-            to = phone_destination)
+            to = 'whatsapp:'+phone_destination)
         logger.info("Message has been created...")
         print("SMS Send: " + message.sid)
     

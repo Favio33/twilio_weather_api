@@ -14,7 +14,7 @@ class Weather:
         
         logger.info('Instance Weather object...')
         self.url_request = url_request
-        self.response = self.request_api()
+        # self.response = self.request_api()
 
     @staticmethod
     def get_url_request(country: str, days = 1, aqi = 'no', alerts = 'no'):
@@ -42,11 +42,9 @@ class Weather:
             response = requests.get(self.url_request)
             if response.status_code == 200:
                 logger.info(f"Response {response.status_code} - Request has been executed successfully! \n")
-                return response.json()
+                self.response =  response.json()
             else:
                 logger.warning(f"Response {response.status_code}: Check the {__name__} method!", exc_info=True)
         except Exception as ex:
             logger.error(f"{__name__} executes incorrectly. Check the Stacktracer!", exc_info=True)
-
-        return response
     
