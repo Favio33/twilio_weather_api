@@ -2,6 +2,7 @@
 from twilio.rest import Client
 from dotenv import load_dotenv
 from utilities.variables import city
+from tabulate import tabulate
 import pandas as pd
 import os
 
@@ -33,7 +34,7 @@ def generate_text (df: pd.DataFrame):
 
         logger.info('generate_text has been initialized...')
         text_part1 = f"Hola!\nEl pronóstico de lluvia de hoy {df['date'].values[0]} en {city} es:\n"
-        text_part2 = str(df[['condition']])
+        text_part2 = tabulate(df[['condition']], headers='keys', tablefmt='presto')
         return text_part1 + text_part2
 
     except Exception as ex:
