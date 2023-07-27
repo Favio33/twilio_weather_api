@@ -32,7 +32,7 @@ def generate_text (df: pd.DataFrame):
     try:
 
         logger.info('generate_text has been initialized...')
-        text_part1 = f"\nHola! \n\n El pronóstico de lluvia de hoy {df['date'].values[0]} en {city} es: \n\n"
+        text_part1 = f"Hola!\nEl pronóstico de lluvia de hoy {df['date'].values[0]} en {city} es:\n"
         text_part2 = str(df[['condition']])
         return text_part1 + text_part2
 

@@ -27,4 +27,4 @@ Hi there! This code was developed in Python 3.10 using Weather API and Twilio. T
 - The .dockerignore includes the virtual env create for this project
 - The runtime was set up in Python 3.10
 - The main directory is /app
-- To run the container you can use Docker Desktop or a docker run {tagname}
+- To run the container you can use Docker Desktop or a docker run {tagname} parm1{city} parm2{phone_destination}

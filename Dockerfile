@@ -1,6 +1,5 @@
-FROM python:3.10
+FROM python:3.10.12-slim-bullseye
 WORKDIR /app
 ADD . /app
 RUN pip install -r requirements.txt
-EXPOSE 8000
-CMD python src/main.py
+ENTRYPOINT ["python", "src/main.py"]
