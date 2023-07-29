@@ -1,8 +1,7 @@
 # Modules
 from api.weather import Weather
 from api.exchange_rate import ExchangeRate
-from data.preprocessing import get_whole_day_forecast
-from data.processing import get_df, get_report
+from data.processing import df_weather_report, currency_exchange_report, weather_rainy_report
 from utilities.variables import weather
 from api.twilio import send_message
 import sys
@@ -19,10 +18,11 @@ def main(city:str, phone_destination:str):
     exchange_rate_api = ExchangeRate("USD", "PEN,MXN")
     weather_api.request_api()
     exchange_rate_api.request_api()
-    data = get_whole_day_forecast(weather_api.response)
-    dfWeather = get_df(data, weather['columns'])
-    dfRain = get_report(dfWeather)
-    send_message(dfRain, phone_destination)
+    dfRain = df_weather_report(weather_api.response)
+    rainy_weather_message = weather_rainy_report(dfRain)
+    currency_exchange_message = currency_exchange_report(exchange_rate_api.response)
+    final_message = rainy_weather_message + "\n" + currency_exchange_message
+    send_message(final_message, phone_destination)
     logging.info('App finished successfully!!')
 
 if __name__ == '__main__':

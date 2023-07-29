@@ -1,9 +1,7 @@
 # Modules
 from twilio.rest import Client
 from dotenv import load_dotenv
-from tabulate import tabulate
 import pandas as pd
-import sys
 import os
 
 # Logging
@@ -28,21 +26,8 @@ def twilio_auth ():
         logger.error(f"twilio_auth has failed! Check the stack trace {str(ex)}", exc_info=True)
         raise ex
 
-def generate_text (df: pd.DataFrame):
 
-    try:
-
-        logger.info('generate_text has been initialized...')
-        text_part1 = f"Hola!\nEl pronóstico de lluvia de hoy {df['date'].values[0]} en {sys.argv[1]} es:\n"
-        text_part2 = tabulate(df[['condition']], headers='keys', tablefmt='presto')
-        return text_part1 + text_part2
-
-    except Exception as ex:
-        logger.error(f"generate_text has failed! Check the stack trace {str(ex)}", exc_info=True)
-        raise ex
-
-
-def send_message (df: pd.DataFrame, phone_destination: str):
+def send_message (message: str, phone_destination: str):
 
     try:
 
@@ -51,7 +36,7 @@ def send_message (df: pd.DataFrame, phone_destination: str):
         logger.info("Twilio autorization succesful")
         message = client.messages.create(
             from_ = 'whatsapp:'+os.environ['PHONE_NUMBER'],
-            body = generate_text(df),
+            body = "Hola estas suscrito al reporte del dia!\n" + message,
             to = 'whatsapp:'+phone_destination)
         logger.info("Message has been created...")
         print("SMS Send: " + message.sid)
