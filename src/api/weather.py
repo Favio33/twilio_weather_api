@@ -1,50 +1,40 @@
 # Modules
-from utilities.variables import api_key, base_url_weather
-import requests
+from api.api import Api
+from utilities.variables import weather
 
 # Logging
 import logging.config
 
 logging.config.fileConfig('./src/config/loggingFile.conf')
-logger = logging.getLogger('api')
+logger = logging.getLogger('weather')
 
-class Weather:
+class Weather(Api):
 
-    def __init__(self, url_request):
-        
+    base_url_api = weather['base_url_weather']
+
+    def __init__(self, city:str):
         logger.info('Instance Weather object...')
-        self.url_request = url_request
-        # self.response = self.request_api()
+        super().__init__(self.base_url_api)
+        self.city = city
+        self.params = self.__set_params(city)
 
-    @staticmethod
-    def get_url_request(country: str, days = 1, aqi = 'no', alerts = 'no'):
+    def __set_params(country: str, days = 1, aqi = 'no', alerts = 'no'):
 
-        __api_key = api_key
-        __base_url_weather = base_url_weather
+        __api_key = weather['weather_api_key']
 
         try:
 
-            logger.info('Initialized get_url_request() static method ...')
-            query  = f'&q={country}&days={days}&aqi={aqi}&alerts={alerts}'
-            url_weather = f"{__base_url_weather}{__api_key}{query}"
-            logger.info('get_url_request static method has been completed successfully! \n')
-            return url_weather
+            logger.info('Initialized set_params() static method ...')
+            params  = {
+                "key":__api_key,
+                "q":country,
+                "days":days,
+                "aqi":aqi,
+                "alerts":alerts
+            }
+            logger.info('set_params static method has been completed successfully! \n')
+            return params
         
         except Exception as ex:
-
-            logger.error('Static method get_url_request has failed! Check the stacktrace: ', exc_info=True)
-    
-
-    def request_api(self):
-
-        try:
-            logger.info('Request Weather API...')
-            response = requests.get(self.url_request)
-            if response.status_code == 200:
-                logger.info(f"Response {response.status_code} - Request has been executed successfully! \n")
-                self.response =  response.json()
-            else:
-                logger.warning(f"Response {response.status_code}: Check the {__name__} method!", exc_info=True)
-        except Exception as ex:
-            logger.error(f"{__name__} executes incorrectly. Check the Stacktracer!", exc_info=True)
-    
+            logger.error('__set_params method has failed! Check the stacktrace: ', exc_info=True)
+            raise ex
